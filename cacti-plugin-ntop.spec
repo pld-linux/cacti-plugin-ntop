@@ -1,7 +1,7 @@
 %define		namesrc	ntop
 %include	/usr/lib/rpm/macros.perl
 Summary:	Plugin for Cacti - Ntop 
-Summary(pl.UTF-8):   Wtyczka do Cacti - Ntop
+Summary(pl.UTF-8):	Wtyczka do Cacti - Ntop
 Name:		cacti-plugin-ntop
 Version:	0.1b
 Release:	0.1
