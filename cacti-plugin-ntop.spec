@@ -3,13 +3,12 @@
 Summary:	Plugin for Cacti - Ntop 
 Summary(pl.UTF-8):	Wtyczka do Cacti - Ntop
 Name:		cacti-plugin-ntop
-Version:	0.1b
-Release:	0.1
+Version:	0.1
+Release:	1
 License:	GPL v2
 Group:		Applications/WWW
-#!!!!problem with version
-Source0:	http://download.cactiusers.org/downloads/%{namesrc}.tar.gz
-# Source0-md5:	e83677a70146354787f8382f3c905c90
+Source0:	http://mirror.cactiusers.org/downloads/plugins/%{namesrc}-%{version}.zip
+# Source0-md5:	7e5b07df1db6fc8db73aa16da878e0de
 URL:		http://www.cactiusers.org/
 BuildRequires:	rpm-perlprov
 Requires:	cacti
@@ -25,7 +24,7 @@ Plugin for Cacti - Ntop.
 Wtyczka do Cacti - Ntop.
 
 %prep
-%setup -q -n %{namesrc}
+%setup -q -c
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -37,5 +36,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-#%doc 
+%doc README 
 %{webcactipluginroot}
