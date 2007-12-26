@@ -1,6 +1,6 @@
 %define		namesrc	ntop
 %include	/usr/lib/rpm/macros.perl
-Summary:	Plugin for Cacti - Ntop 
+Summary:	Plugin for Cacti - Ntop
 Summary(pl.UTF-8):	Wtyczka do Cacti - Ntop
 Name:		cacti-plugin-ntop
 Version:	0.1
@@ -29,12 +29,12 @@ Wtyczka do Cacti - Ntop.
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{webcactipluginroot}
-cp -aRf * $RPM_BUILD_ROOT%{webcactipluginroot}
+cp -a * $RPM_BUILD_ROOT%{webcactipluginroot}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README 
+%doc README
 %{webcactipluginroot}
