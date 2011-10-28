@@ -10,7 +10,7 @@ License:	GPL v2
 Group:		Applications/WWW
 Source0:	http://docs.cacti.net/_media/plugin:%{plugin}-v%{version}-1.tgz
 # Source0-md5:	29a192e1f935fbb30c7b9bd5384ff78f
-URL:		http://www.cactiusers.org/
+URL:		http://docs.cacti.net/plugin:ntop
 BuildRequires:	rpm-perlprov
 BuildRequires:	unzip
 Requires:	cacti >= 0.8.7e
