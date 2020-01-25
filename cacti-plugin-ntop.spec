@@ -1,6 +1,5 @@
 %define		plugin	ntop
 %define		php_min_version 5.0.0
-%include	/usr/lib/rpm/macros.php
 Summary:	Plugin for Cacti - Provides an iFrame to point to your NTop Server
 Summary(pl.UTF-8):	Wtyczka do Cacti - Ntop
 Name:		cacti-plugin-ntop
